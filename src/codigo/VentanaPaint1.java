@@ -617,6 +617,7 @@ public class VentanaPaint1 extends javax.swing.JFrame {
     
     private void lienzoMousePressed(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lienzoMousePressed
             switch (numLados) {
+              
                 case 3:
                     miforma = new Triangulo(evt.getX(),evt.getY(),
                 colorSeleccionado,true); break;
